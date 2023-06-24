@@ -1,0 +1,17 @@
+header{
+    font-size: 26px;
+    text-align: center;
+    display: block;
+    background-color: darkslategray;
+    height: 100px 0px 0px 0px;
+}
+
+.links{
+    display: block;
+    border: 2px auto;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
