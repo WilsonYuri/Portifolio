@@ -1,17 +1,27 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
     font-size: 26px;
-    text-align: center;
-    display: block;
     background-color: darkslategray;
-    height: 100px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .links{
-    display: block;
     border: 2px auto;
     border-color: black;
     border-style: solid;
+    border-radius: 5px;
     margin: 5px;
     width: 200px;
     text-align: center;
+    color: darkorange;
+    text-decoration: none;
+    display: inline-block;
 }
