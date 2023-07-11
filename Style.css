@@ -2,26 +2,45 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    background-color: #0B0B0B;
+}
+
+p{
+    margin: 0;
 }
 
 .header{
     font-size: 26px;
-    background-color: darkslategray;
+    background-color: #7300FF;
     text-align: center;
     justify-content: center;
-    margin: 0;
     padding: 0;
 }
 
 .links{
     border: 2px auto;
-    border-color: black;
+    border-color: #7300FF;
     border-style: solid;
     border-radius: 5px;
+    padding: 5px 20px;
     margin: 5px;
-    width: 200px;
     text-align: center;
-    color: darkorange;
+    color: #E49701;
     text-decoration: none;
     display: inline-block;
+}
+
+.links:hover{
+    border: 2px auto;
+    border-color: #7300FF;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px;
+    text-align: center;
+    color: #E49701;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1A1A1A;
 }
