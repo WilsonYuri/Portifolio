@@ -24,11 +24,11 @@ p{
     border-style: solid;
     border-radius: 5px;
     padding: 5px 20px;
-    margin: 5px;
+    margin: 5px auto;
     text-align: center;
     color: #E49701;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 .links:hover{
@@ -37,10 +37,10 @@ p{
     border-style: solid;
     border-radius: 5px;
     padding: 5px 20px;
-    margin: 5px;
+    margin: 5px auto;
     text-align: center;
     color: #E49701;
     text-decoration: none;
-    display: inline-block;
     background-color: #1A1A1A;
+    display: block;
 }
